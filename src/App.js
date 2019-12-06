@@ -9,7 +9,7 @@ const { Content, Footer } = Layout;
 class App extends Component {
     render() {
         return (
-            <Layout className="ant-layout-has-sider">
+            <Layout className="ant-layout-has-sider" style={{height:'100%'}}>
                 <Router>
                     <SiderCustom path="/" />
                     <Layout>
