@@ -14,7 +14,7 @@ class App extends Component {
                     <SiderCustom path="/" />
                     <Layout>
                         <HeaderCustom />
-                        <Content>
+                        <Content style={{minHeight:'auto'}}>
                             <Page />
                         </Content>
                         <Footer style={{ textAlign: 'center' }}>

@@ -65,7 +65,8 @@ class SiderCustom extends Component {
                     >
 
                         <Menu.Item key="/app/table/basicTable"><Link to={'/app/table/basicTable'}>基础表格</Link></Menu.Item>
-                        <Menu.Item key="/app/table/advancedTable"><Link to={'/app/table/advancedTable'}>高级表格</Link></Menu.Item>
+                        <Menu.Item key="/app/table/advancedTable"><Link to={'/app/table/fixedTable'}>固定表格</Link></Menu.Item>
+                        <Menu.Item key="/app/table/editableTable"><Link to={'/app/table/editableTable'}>可编辑表格</Link></Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="/app/form"
