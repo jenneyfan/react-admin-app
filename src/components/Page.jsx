@@ -5,6 +5,8 @@ import FixedTable from './tables/FixedTable';
 import EditableTable from './tables/EditableTable';
 import ExpandedTable from './tables/ExpandedTable';
 import SearchTable from './tables/SearchTable';
+import SelectTable from './tables/SelectTable';
+import SortTable from './tables/SortTable';
 import BasicForm from './forms/BasicForm';
 import WrappedForm from './forms/WrappedForm';
 import HorizontalForm from './forms/HorizontalForm';
@@ -21,6 +23,8 @@ class Page extends Component {
                     <Route path='/app/table/editableTable' component={EditableTable}></Route>
                     <Route path='/app/table/expandedTable' component={ExpandedTable}></Route>
                     <Route path='/app/table/searchTable' component={SearchTable}></Route>
+                    <Route path='/app/table/selectTable' component={SelectTable}></Route>
+                    <Route path='/app/table/sortTable' component={SortTable}></Route>
                     <Route path='/app/form/basicForm' component={BasicForm}></Route>
                     <Route path='/app/form/wrappedForm' component={WrappedForm}></Route>
                     <Route path='/app/form/horizontalForm' component={HorizontalForm}></Route>

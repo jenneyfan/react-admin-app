@@ -69,6 +69,8 @@ class SiderCustom extends Component {
                         <Menu.Item key="/app/table/editableTable"><Link to={'/app/table/editableTable'}>编辑表格</Link></Menu.Item>
                         <Menu.Item key="/app/table/expandedTable"><Link to={'/app/table/expandedTable'}>展开表格</Link></Menu.Item>
                         <Menu.Item key="/app/table/searchTable"><Link to={'/app/table/searchTable'}>查询表格</Link></Menu.Item>
+                        <Menu.Item key="/app/table/selectTable"><Link to={'/app/table/selectTable'}>选择表格</Link></Menu.Item>
+                        <Menu.Item key="/app/table/sortTable"><Link to={'/app/table/sortTable'}>排序表格</Link></Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="/app/form"
