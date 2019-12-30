@@ -6,11 +6,15 @@ const BreadcrumbCustom = ({first,second}) => {
     first = <Breadcrumb.Item>{first}</Breadcrumb.Item> || '';
     second = <Breadcrumb.Item>{second}</Breadcrumb.Item> || '';
     return (
-        <Breadcrumb>
-            <Breadcrumb.Item>
-                <Link to={'/#'}>首页</Link> > {first} > {second}
-            </Breadcrumb.Item>
-        </Breadcrumb>
+        <div>
+            <Breadcrumb style={{marginBottom:'15px'}}>
+                <Breadcrumb.Item>
+                    <Link to={'/#'}>首页</Link>
+                </Breadcrumb.Item>
+                {first}
+                {second}
+            </Breadcrumb>
+        </div>
     )
 };
 
