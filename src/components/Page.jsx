@@ -16,7 +16,6 @@ class Page extends Component {
     render() {
         return (
             <div style={{height:'100%',padding:'20px'}} key={this.props.location.key}>
-                <Switch>
                     <Route path='/app/table/basicTable' component={BasicTable}></Route>
                     <Route path='/app/table/advancedTables' component={AdvancedTables}></Route>
                     <Route path='/app/table/searchTable' component={SearchTable}></Route>
@@ -26,7 +25,6 @@ class Page extends Component {
                     <Route path='/app/form/basicForm' component={BasicForm}></Route>
                     <Route path='/app/form/wrappedForm' component={WrappedForm}></Route>
                     <Route path='/app/form/horizontalForm' component={HorizontalForm}></Route>
-                </Switch>
             </div>
         )
     }

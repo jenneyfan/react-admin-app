@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Menu, Icon, Layout, Badge } from 'antd';
+import { Link } from 'react-router-dom';
 const { Header } = Layout;
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -24,6 +25,9 @@ class HeaderCustom extends Component {
                         <MenuItemGroup title="设置中心">
                             <Menu.Item key="setting:3">个人设置</Menu.Item>
                             <Menu.Item key="setting:4">系统设置</Menu.Item>
+                            <Menu.Item key="setting:5">
+                                <Link exact to={'/login'}>退出登录</Link>
+                            </Menu.Item>
                         </MenuItemGroup>
                     </SubMenu>
                 </Menu>
