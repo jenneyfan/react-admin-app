@@ -60,6 +60,15 @@ class SiderCustom extends Component {
                         <span className="nav-text"><Link to={'/'}>首页</Link></span>
                     </Menu.Item>
                     <SubMenu
+                        key="/app/ui"
+                        title={<span><Icon type="scan"/><span className="nav-text">UI</span></span>}
+                    >
+                        <Menu.Item key="/app/ui/buttons"><Link to={'/app/ui/buttons'}/>按钮</Menu.Item>
+                        <Menu.Item key="/app/ui/icons"><Link to={'/app/ui/icons'}/>图标</Menu.Item>
+                        <Menu.Item key="/app/ui/spins"><Link to={'/app/ui/spins'}/>加载中</Menu.Item>
+
+                    </SubMenu>
+                    <SubMenu
                         key="/app/table"
                         title={<span><Icon type="copy" /><span className="nav-text">表格</span></span>}
                     >
