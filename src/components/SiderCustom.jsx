@@ -74,6 +74,7 @@ class SiderCustom extends Component {
                         title={<span><Icon type="pie-chart"/><span className="nav-text">图表</span></span>}
                     >
                         <Menu.Item key="/app/charts/echarts"><Link to={'/app/charts/echarts'}/>Echarts</Menu.Item>
+                        <Menu.Item key="/app/charts/recharts"><Link to={'/app/charts/recharts'}/>Recharts</Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="/app/table"

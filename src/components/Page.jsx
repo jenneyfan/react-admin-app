@@ -4,6 +4,7 @@ import Buttons from './ui/Buttons';
 import Icons from './ui/Icons';
 import Spins from './ui/Spins';
 import Echarts from './charts/Echarts';
+import Recharts from './charts/Recharts';
 import BasicTable from './tables/BasicTable';
 import AdvancedTables from './tables/AdvancedTables';
 import SearchTable from './tables/SearchTable';
@@ -24,6 +25,7 @@ class Page extends Component {
                 <Route path='/app/ui/icons' component={Icons}></Route>
                 <Route path='/app/ui/spins' component={Spins}></Route>
                 <Route path='/app/charts/echarts' component={Echarts}></Route>
+                <Route path='/app/charts/recharts' component={Recharts}></Route>
                 <Route path='/app/table/basicTable' component={BasicTable}></Route>
                 <Route path='/app/table/advancedTables' component={AdvancedTables}></Route>
                 <Route path='/app/table/searchTable' component={SearchTable}></Route>
