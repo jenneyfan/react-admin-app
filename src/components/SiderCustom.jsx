@@ -66,7 +66,14 @@ class SiderCustom extends Component {
                         <Menu.Item key="/app/ui/buttons"><Link to={'/app/ui/buttons'}/>按钮</Menu.Item>
                         <Menu.Item key="/app/ui/icons"><Link to={'/app/ui/icons'}/>图标</Menu.Item>
                         <Menu.Item key="/app/ui/spins"><Link to={'/app/ui/spins'}/>加载中</Menu.Item>
+                        <Menu.Item key="/app/ui/spins"><Link to={'/app/ui/spins'}/>加载中</Menu.Item>
 
+                    </SubMenu>
+                    <SubMenu
+                        key="/app/charts"
+                        title={<span><Icon type="pie-chart"/><span className="nav-text">图表</span></span>}
+                    >
+                        <Menu.Item key="/app/charts/echarts"><Link to={'/app/charts/echarts'}/>Echarts</Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="/app/table"
